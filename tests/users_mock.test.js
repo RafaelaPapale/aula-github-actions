@@ -5,7 +5,7 @@ const UsersRepository = require('../src/port/users_repository');
 
 jest.mock('../src/port/users_repository');
 
-test('CREATE - Dado válido', async () => {
+test('CREATE - Dado user válido', async () => {
     const data = {
         nome: "João",
         email: "joao@inatel.br",
